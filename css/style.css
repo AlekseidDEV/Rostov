@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family:'Yeseva One';
+    src: url(../fonts/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family:'FuturaDemiC';
+    src: url(../fonts/futurademic-italic.ttf);
+}
+
+@font-face {
+    font-family:'FuturaBookC';
+    src: url(../fonts/futurabookctt-normal.ttf);
+}
+
+
+@font-face {
+    font-family:'FuturaMediumC';
+    src: url(../fonts/futuramediumctt-normal.ttf);
+}
+
+
+@font-face {
+    font-family:'Futura';
+    src: url(../fonts/futura-normal.ttf);
+}
+
+
+
+
+/*=========================================================================================================================
+                                                    HEADER
+=========================================================================================================================*/
+
+.container{
+    max-width: 1256px;
+    width: 100%;
+    margin: auto;
+}
+
+.header{
+    padding-top: 37px;
+    background: #131313;
+    padding-bottom: 36px;
+}
+
+.header__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__link{
+font-family: 'FuturaDemiC';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #E3B873;
+
+}
+
+.link__project{
+    font-family: 'FuturaBookC';
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-right: 40px;
+}
+
+
+.link__project:hover{
+    color: #E3B873;
+}
+
+
+.edge{
+    margin-right: 0;
+}
+
+.number{
+    font-family: 'FuturaDemiC';
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: right;
+text-decoration-line: underline;
+margin-right: 45px;
+color: #E3B873;
+}
+
+.color{
+    font-family: 'FuturaDemiC';
+    font-style: italic;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.btn__phone{
+    background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 2px;
+padding-left: 20px;
+padding-right: 21px;
+padding-top: 13px;
+padding-bottom: 14px;
+}
+
+/*=========================================================================================================================
+                                                    HEADER END
+=========================================================================================================================*/
+
+
+/*=========================================================================================================================
+                                                    SECTION__SEND
+=========================================================================================================================*/
+
+
