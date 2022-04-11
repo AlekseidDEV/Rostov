@@ -1,6 +1,47 @@
 $headerBgColor:#131313;
 $ColorONe: #E3B873;
 $deffColor: #FFFFFF;
+$colorUlText:#959595;
+
+
+@mixin button__border {
+    background: $ColorONe;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px;
+        padding-left: 20px;
+        padding-right: 21px;
+        padding-top: 13px;
+        padding-bottom: 14px;
+
+        font-family: 'FuturaDemiC';
+        font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $deffColor;
+}
+
+@mixin button__white{
+ border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: 'FuturaDemiC';
+font-style: italic;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top: 19px;
+padding-bottom: 20px;
+padding-left: 22px;
+padding-right: 23px;
+}
+
+
 
 
 
@@ -47,6 +88,11 @@ a{
 }
 
 
+/*=========================================================================================================================
+                                                    HEADER
+=========================================================================================================================*/
+
+
 
 .header{
     background: $headerBgColor ;
@@ -83,13 +129,58 @@ a{
     line-height: 16px;
     text-transform: uppercase;
     color:$deffColor;
+
+    &:hover{
+        color: $ColorONe;
+    }
     }
 
     .link__project:not(.edge){
         margin-right: 40px;
     }
 
-    .link__project:hover{
-        color: $ColorONe;
+   
+
+    .number{
+        font-family: 'FuturaDemiC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    margin-right: 45px;  
+    color: $ColorONe;
+
+    
     }
+
+    .btn__phone{
+
+        @include button__border;
+
+
+        // background: $ColorONe;
+        // box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        // border-radius: 2px;
+        // padding-left: 20px;
+        // padding-right: 21px;
+        // padding-top: 13px;
+        // padding-bottom: 14px;
+    }
+
+    // .color{
+    //     font-family: 'FuturaDemiC';
+    //     font-style: italic;
+    // font-weight: 500;
+    // font-size: 13px;
+    // line-height: 15px;
+    // text-align: center;
+    // text-transform: uppercase;
+    // color: $deffColor;
+    // }
 }
+
+/*=========================================================================================================================
+                                                    HEADER end
+=========================================================================================================================*/

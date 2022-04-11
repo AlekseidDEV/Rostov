@@ -34,6 +34,9 @@ a {
   font-family: "Futura";
   src: url(../fonts/futura-normal.ttf);
 }
+/*=========================================================================================================================
+                                                    HEADER
+=========================================================================================================================*/
 .header {
   background: #131313;
   padding-top: 37px;
@@ -70,9 +73,43 @@ a {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.header .link__project:not(.edge) {
-  margin-right: 40px;
-}
 .header .link__project:hover {
   color: #E3B873;
 }
+.header .link__project:not(.edge) {
+  margin-right: 40px;
+}
+.header .number {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-right: 45px;
+  color: #E3B873;
+}
+.header .btn__phone {
+  background: #E3B873;
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 21px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  font-family: "FuturaDemiC";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/*=========================================================================================================================
+                                                    HEADER end
+=========================================================================================================================*/
