@@ -1,0 +1,95 @@
+$headerBgColor:#131313;
+$ColorONe: #E3B873;
+$deffColor: #FFFFFF;
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family:'Yeseva One';
+    src: url(../fonts/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family:'FuturaDemiC';
+    src: url(../fonts/futurademic-italic.ttf);
+}
+
+@font-face {
+    font-family:'FuturaBookC';
+    src: url(../fonts/futurabookctt-normal.ttf);
+}
+
+
+@font-face {
+    font-family:'FuturaMediumC';
+    src: url(../fonts/futuramediumctt-normal.ttf);
+}
+
+
+@font-face {
+    font-family:'Futura';
+    src: url(../fonts/futura-normal.ttf);
+}
+
+
+
+.header{
+    background: $headerBgColor ;
+    padding-top: 37px;
+    padding-bottom: 36px;
+
+    .container{
+        max-width: 1256px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .header__block{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo__link{
+        font-family: 'FuturaDemiC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: $ColorONe;
+    }
+    
+
+    .link__project{
+        font-family: 'FuturaBookC';
+        font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color:$deffColor;
+    }
+
+    .link__project:not(.edge){
+        margin-right: 40px;
+    }
+
+    .link__project:hover{
+        color: $ColorONe;
+    }
+}

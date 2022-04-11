@@ -1,141 +1,78 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
-}
-
-@font-face {
-    font-family:'Yeseva One';
-    src: url(../fonts/YesevaOne-Regular.ttf);
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @font-face {
-    font-family:'FuturaDemiC';
-    src: url(../fonts/futurademic-italic.ttf);
+  font-family: "Yeseva One";
+  src: url(../fonts/YesevaOne-Regular.ttf);
 }
-
 @font-face {
-    font-family:'FuturaBookC';
-    src: url(../fonts/futurabookctt-normal.ttf);
+  font-family: "FuturaDemiC";
+  src: url(../fonts/futurademic-italic.ttf);
 }
-
-
 @font-face {
-    font-family:'FuturaMediumC';
-    src: url(../fonts/futuramediumctt-normal.ttf);
+  font-family: "FuturaBookC";
+  src: url(../fonts/futurabookctt-normal.ttf);
 }
-
-
 @font-face {
-    font-family:'Futura';
-    src: url(../fonts/futura-normal.ttf);
+  font-family: "FuturaMediumC";
+  src: url(../fonts/futuramediumctt-normal.ttf);
 }
-
-
-
-
-/*=========================================================================================================================
-                                                    HEADER
-=========================================================================================================================*/
-
-.container{
-    max-width: 1256px;
-    width: 100%;
-    margin: auto;
+@font-face {
+  font-family: "Futura";
+  src: url(../fonts/futura-normal.ttf);
 }
-
-.header{
-    padding-top: 37px;
-    background: #131313;
-    padding-bottom: 36px;
+.header {
+  background: #131313;
+  padding-top: 37px;
+  padding-bottom: 36px;
 }
-
-.header__block{
-    display: flex;
-    justify-content: space-between;
+.header .container {
+  max-width: 1256px;
+  width: 100%;
+  margin: auto;
 }
-
-.logo__link{
-font-family: 'FuturaDemiC';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-text-transform: uppercase;
-color: #E3B873;
-
+.header .header__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-
-.link__project{
-    font-family: 'FuturaBookC';
-    font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-right: 40px;
+.header .logo__link {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #E3B873;
 }
-
-
-.link__project:hover{
-    color: #E3B873;
+.header .link__project {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
-
-
-.edge{
-    margin-right: 0;
+.header .link__project:not(.edge) {
+  margin-right: 40px;
 }
-
-.number{
-    font-family: 'FuturaDemiC';
-    font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-text-align: right;
-text-decoration-line: underline;
-margin-right: 45px;
-color: #E3B873;
+.header .link__project:hover {
+  color: #E3B873;
 }
-
-.color{
-    font-family: 'FuturaDemiC';
-    font-style: italic;
-font-weight: 500;
-font-size: 13px;
-line-height: 15px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-.btn__phone{
-    background: #E3B873;
-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-border-radius: 2px;
-padding-left: 20px;
-padding-right: 21px;
-padding-top: 13px;
-padding-bottom: 14px;
-}
-
-/*=========================================================================================================================
-                                                    HEADER END
-=========================================================================================================================*/
-
-
-/*=========================================================================================================================
-                                                    SECTION__SEND
-=========================================================================================================================*/
-
-
