@@ -152,128 +152,321 @@ a{
 /*=========================================================================================================================
                                                     send__block
 =========================================================================================================================*/
-.section__send{
+.block{
+    display: flex;
+  }
+  
+  .strip__left{
     background: #131313;
-}
-.send__block{
-    background: url(../img/image4.3.png) no-repeat, center/cover;
-   position: relative;
-   z-index: 1;
-}
-
-.container__left{
-    max-width: 1256px;
+    max-width: 91px;
     width: 100%;
-   margin: auto;
-}
-
-.send__block::after{
-    content:'';
-    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+  }
+  
+  .inst{
+  position: absolute;
+  transform: rotate(90deg);
+  font-family: 'FuturaDemiC';
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #E3B873;
+  top: 334px;
+  left: 0;
+  }
+  
+  .inst::after{
     position: absolute;
+    content: '';
+    width:51px;
+    height:2px;
+    background: #E3B873;
+    top: 6px;
+    left: 90px;
+  }
+  
+  .send__block{
     width: 100%;
-    height: 100%;
-    top: 0;
+    background: url(../img/image4.3.png) no-repeat center ;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  }
+  
+   .send__block::after {
+     content: "";
+     background: rgba(0, 0, 0, 0.7);
+    position: absolute;     
+    width: 100%;
+     height: 100%;
+     top: 0;
     left: 0;
     right: 0;
-    z-index:-1;
-}
-
-
-.sends{
-padding-top: 193px;
-padding-bottom: 208px;
-padding-left: 60px;
-position: relative;
-
-
-
-&::before{
-    content: '' ;
-    position: absolute;
-    left: -94px;
-    top: 344px;
-    transform: rotate(-90deg);
-    width: 51px;
-    height: 2px;
-    background: $ColorONe;
-}
-}
-
-.rotate__link{
-    position: absolute;
-    content: 'INSTAGRAM';
-    transform: rotate(-270deg);
-    color: $ColorONe;
-    left: -115px;
-    top: 250px;
-
-   
-    }
-
-
-
-.sup__block__title{
-    color: $deffColor;
-    font-family: 'Yeseva One';
+    z-index: -1;
+   }
+  
+  .sup__block__title {
+    color: #FFFFFF;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
-}
-
-.sub__one-title{
-    color: $deffColor;
-    font-family: 'Yeseva One';
+  }
+  
+  .sub__one-title {
+    color: #FFFFFF;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
-}
-
-.sub__yellow-title{
-    color: $ColorONe;
-    font-family: 'Yeseva One';
+  }
+  
+  .sub__yellow-title {
+    color: #E3B873;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
-}
-
-.send__text{
+  }
+  
+  .send__text {
     margin-top: 20px;
-    font-family: 'FuturaBookC';
+    font-family: "FuturaBookC";
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;
-    color: $deffColor;
+    color: #FFFFFF;
     margin-bottom: 41px;
-}
-
-.money-check{
-    @include button__border;
+  }
+  
+  .money-check {
+    background: #E3B873;
+    -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+            box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 21px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    font-family: "FuturaDemiC";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
     margin-right: 20px;
     padding-top: 19px;
     padding-bottom: 16px;
     padding-left: 26px;
     padding-right: 26px;
+  }
+  
+  .send__btn {
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 2px;
+    font-family: "FuturaDemiC";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 23px;
+  }
+  
+  .info{
+    padding-top: 193px;
+    padding-bottom: 208px;
+    padding-left: 60px;
+  }
+
+  .link__down{
+    left: 10px;
+    top: 730px;
+    background: url(../img/icon/Group6.2.svg) no-repeat  180px #131313;
+    color: $deffColor;
+    position: absolute;
+    width: 247px;
+    height: 97px;
+    z-index: 1;
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 138.6%;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+/*=========================================================================================================================
+                                                    send__block end
+=========================================================================================================================*/
+
+
+/*=========================================================================================================================
+                                                    project__finish
+=========================================================================================================================*/
+  .project__finish{
+    background: url(../img/bg/Group21.png) no-repeat bottom #131313;
+    background-size: 100%;
+    padding-top: 179px;
+  }
+  .info__project{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .side__sect{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+  }
+  
+  .slid__one{
+    flex-direction: column;
+  }
+
+  .mr{
+    margin-right: 20px;
+  }
+  
+  .side__sect__btm{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .online{
+    justify-content: center;
+    text-align: center;
+    margin-top: 91px;
+    padding-bottom: 259px;
+  }
+
+  .video__types{
+    position: relative;
+  }
+
+// .Elipse{
+  
+// //  &::after{
+// //    content: '';
+// //   background: url(../img/icon/Polygon.svg) no-repeat center $ColorONe;
+// //   width: 89px;
+// //   height: 89px;
+// //   border-radius: 50%;
+// //   margin: auto;
+// //   position: absolute;
+// //   top: 170px;
+// //   z-index: 1;
+// //  }
+
+// }
+
+
+
+// .block__video{
+//   position: absolute;
+//   margin: auto;
+//   max-width: 817px;
+//   width: 100%;
+//   height: 434px;
+//   background: url(../img/image6.png);
+//   display: flex;
+//   align-items: center;
+//   top: 50%;
+//   left: 50%;
+  // &::after{
+  //   content: "";
+  //   background: rgba(0, 0, 0, 0.7);
+  //  position: absolute;     
+  //  width: 100%;
+  //   height: 100%;
+  //   top: 0;
+  //  left: 0;
+  // }
+
+
+.prog__title{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+color: #E3B873;
+position: relative;
+margin-bottom: 34px;
+&::after{
+  content: '';
+  position: absolute;
+  top: 55px;
+  left: 150px;
+  width: 92px;
+  height: 1px;
+  background:#E3B873;
+}
 }
 
-.send__btn{
-    @include button__white
+.proj__text{
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+color: #FFFFFF;
+margin-bottom: 41px;
 }
 
 
 
+.city{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: $ColorONe;
+
+}
+
+.text__span{
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+/*=========================================================================================================================
+                                                    project__finish end
+=========================================================================================================================*/
 
 
 
 
 
-
-
+.types__of_repairs{
+  padding-top: 305px;
+}
 

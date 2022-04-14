@@ -118,20 +118,48 @@ a {
 /*=========================================================================================================================
                                                     send__block
 =========================================================================================================================*/
-.section__send {
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.strip__left {
   background: #131313;
+  max-width: 91px;
+  width: 100%;
+  position: relative;
+}
+
+.inst {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-family: "FuturaDemiC";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #E3B873;
+  top: 334px;
+  left: 0;
+}
+
+.inst::after {
+  position: absolute;
+  content: "";
+  width: 51px;
+  height: 2px;
+  background: #E3B873;
+  top: 6px;
+  left: 90px;
 }
 
 .send__block {
-  background: url(../img/image4.3.png) no-repeat, center/cover;
+  width: 100%;
+  background: url(../img/image4.3.png) no-repeat center;
+  background-size: cover;
   position: relative;
   z-index: 1;
-}
-
-.container__left {
-  max-width: 1256px;
-  width: 100%;
-  margin: auto;
 }
 
 .send__block::after {
@@ -144,34 +172,6 @@ a {
   left: 0;
   right: 0;
   z-index: -1;
-}
-
-.sends {
-  padding-top: 193px;
-  padding-bottom: 208px;
-  padding-left: 60px;
-  position: relative;
-}
-.sends::before {
-  content: "";
-  position: absolute;
-  left: -94px;
-  top: 344px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  width: 51px;
-  height: 2px;
-  background: #E3B873;
-}
-
-.rotate__link {
-  position: absolute;
-  content: "INSTAGRAM";
-  -webkit-transform: rotate(-270deg);
-          transform: rotate(-270deg);
-  color: #E3B873;
-  left: -115px;
-  top: 250px;
 }
 
 .sup__block__title {
@@ -218,7 +218,7 @@ a {
 .money-check {
   background: #E3B873;
   -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
   padding-left: 20px;
   padding-right: 21px;
@@ -242,7 +242,7 @@ a {
 .send__btn {
   border: 1px solid #FFFFFF;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 2px;
   font-family: "FuturaDemiC";
   font-style: italic;
@@ -256,4 +256,158 @@ a {
   padding-bottom: 20px;
   padding-left: 22px;
   padding-right: 23px;
+}
+
+.info {
+  padding-top: 193px;
+  padding-bottom: 208px;
+  padding-left: 60px;
+}
+
+.link__down {
+  left: 10px;
+  top: 730px;
+  background: url(../img/icon/Group6.2.svg) no-repeat 180px #131313;
+  color: #FFFFFF;
+  position: absolute;
+  width: 247px;
+  height: 97px;
+  z-index: 1;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.6%;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*=========================================================================================================================
+                                                    send__block end
+=========================================================================================================================*/
+/*=========================================================================================================================
+                                                    project__finish
+=========================================================================================================================*/
+.project__finish {
+  background: url(../img/bg/Group21.png) no-repeat bottom #131313;
+  background-size: 100%;
+  padding-top: 179px;
+}
+
+.info__project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.side__sect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.slid__one {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.side__sect__btm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.online {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 91px;
+  padding-bottom: 259px;
+}
+
+.video__types {
+  position: relative;
+}
+
+.prog__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+  position: relative;
+  margin-bottom: 34px;
+}
+.prog__title::after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 150px;
+  width: 92px;
+  height: 1px;
+  background: #E3B873;
+}
+
+.proj__text {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 41px;
+}
+
+.city {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.text__span {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+/*=========================================================================================================================
+                                                    project__finish end
+=========================================================================================================================*/
+.types__of_repairs {
+  padding-top: 305px;
 }
