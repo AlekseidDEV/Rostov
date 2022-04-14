@@ -1,7 +1,12 @@
+@import 'button.scss';
+
+
 $headerBgColor:#131313;
 $ColorONe: #E3B873;
 $deffColor: #FFFFFF;
 $colorUlText:#959595;
+
+
 
 *{
     box-sizing: border-box;
@@ -157,9 +162,9 @@ a{
 }
 
 .container__left{
-    max-width: 1358px;
+    max-width: 1256px;
     width: 100%;
-   margin-left: auto;
+   margin: auto;
 }
 
 .send__block::after{
@@ -173,6 +178,8 @@ a{
     right: 0;
     z-index:-1;
 }
+
+
 .sends{
 padding-top: 193px;
 padding-bottom: 208px;
@@ -201,18 +208,10 @@ position: relative;
     left: -115px;
     top: 250px;
 
-    &::before{
-        content: '' ;
-        position: absolute;
-        left: -94px;
-        top: 344px;
-        transform: rotate(-90deg);
-        width: 51px;
-        height: 2px;
-        background: $ColorONe;
+   
     }
 
-}
+
 
 .sup__block__title{
     color: $deffColor;

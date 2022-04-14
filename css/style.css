@@ -129,9 +129,9 @@ a {
 }
 
 .container__left {
-  max-width: 1358px;
+  max-width: 1256px;
   width: 100%;
-  margin-left: auto;
+  margin: auto;
 }
 
 .send__block::after {
@@ -172,17 +172,6 @@ a {
   color: #E3B873;
   left: -115px;
   top: 250px;
-}
-.rotate__link::before {
-  content: "";
-  position: absolute;
-  left: -94px;
-  top: 344px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  width: 51px;
-  height: 2px;
-  background: #E3B873;
 }
 
 .sup__block__title {
