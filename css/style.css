@@ -14,6 +14,13 @@ a {
   cursor: pointer;
 }
 
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+
 @font-face {
   font-family: "Yeseva One";
   src: url(../fonts/YesevaOne-Regular.ttf);
@@ -290,6 +297,46 @@ a {
           align-items: center;
 }
 
+.block__video {
+  max-width: 817px;
+  width: 100%;
+  height: 434px;
+  background: url(../img/image6.png);
+  background-size: 100%;
+  position: relative;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 220px;
+}
+.block__video::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: absolute;
+}
+
+.link__video {
+  background: url(../img/icon/Polygon.svg) no-repeat center #E3B873;
+  padding-top: 29px;
+  padding-bottom: 28px;
+  padding-left: 28px;
+  padding-right: 29px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
 /*=========================================================================================================================
                                                     send__block end
 =========================================================================================================================*/
@@ -350,8 +397,41 @@ a {
   padding-bottom: 259px;
 }
 
-.video__types {
+.cntr {
+  color: #FFFFFF;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.strip__camera {
   position: relative;
+  max-width: 100px;
+  width: 100%;
+  margin: auto;
+}
+.strip__camera::after {
+  content: "";
+  top: 14px;
+  right: -5px;
+  position: absolute;
+  width: 32px;
+  height: 1px;
+  background: #E3B873;
+}
+.strip__camera::before {
+  content: "";
+  left: -5px;
+  position: absolute;
+  top: 14px;
+  width: 32px;
+  height: 1px;
+  background: #E3B873;
 }
 
 .prog__title {
@@ -408,6 +488,163 @@ a {
 /*=========================================================================================================================
                                                     project__finish end
 =========================================================================================================================*/
+/*=========================================================================================================================
+                                                    types__of_repairs
+=========================================================================================================================*/
 .types__of_repairs {
-  padding-top: 305px;
+  background: url(../img/bg/line.bg.png) no-repeat center;
+  background-size: cover;
+}
+
+.text__sup__form {
+  margin-top: -150px;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #363636;
+}
+
+.forms__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 59px;
+}
+
+.form {
+  max-width: 769px;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn__input {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 21px;
+  padding-right: 21px;
+  background: #E3B873;
+  -webkit-box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+          box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  padding-left: 60px;
+  padding-right: 59px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.sup__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(54, 54, 54, 0.5);
+}
+
+.name {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+::-webkit-input-placeholder {
+  color: #363636;
+}
+
+::-moz-placeholder {
+  color: #363636;
+}
+
+:-ms-input-placeholder {
+  color: #363636;
+}
+
+::-ms-input-placeholder {
+  color: #363636;
+}
+
+::placeholder {
+  color: #363636;
+}
+
+.label {
+  margin-top: 35px;
+  margin-bottom: 142px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.checkbox {
+  display: none;
+}
+
+.fake {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #E3B873;
+  margin-right: 9px;
+}
+.fake::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/icon/chek.svg) no-repeat center;
+  background-color: #E3B873;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
+
+.text__check {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #181818;
 }
