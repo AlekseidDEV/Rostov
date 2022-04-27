@@ -618,8 +618,14 @@ input {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
   margin: auto;
   position: absolute;
-  top: 3010px;
-  left: 143px;
+  top: 300px;
+  left: 30px;
+}
+
+
+
+.card{
+position: relative;
 }
 
 .ul__block {
@@ -628,8 +634,8 @@ input {
   background: #ffffff;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
   position: absolute;
-  top: 3010px;
-  left: 575px;
+  top: 300px;
+  left: 30px;
 }
 
 .ul__block_right {
@@ -638,15 +644,13 @@ input {
   background: #ffffff;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
   position: absolute;
-  top: 3010px;
-  left: 1007px;
+  top: 300px;
+  left: 30px;
 }
 
 .button__card {
   @include button_no_border;
   position: absolute;
-  left: 143px;
-  top: 3270px;
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -655,13 +659,13 @@ input {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  top: 560px;
+  left: 30px;
 }
 
 .button__card__two {
   @include button_no_border;
   position: absolute;
-  left: 575px;
-  top: 3270px;
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -670,13 +674,13 @@ input {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  top: 560px;
+  left: 30px;
 }
 
 .button__card__free {
   @include button_no_border;
   position: absolute;
-  left: 1007px;
-  top: 3270px;
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -685,6 +689,8 @@ input {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  top: 560px;
+  left: 30px;
 }
 
 ::marker {
@@ -695,7 +701,7 @@ input {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-bottom: 300px;
+  padding-bottom: 350px;
 }
 
 .title__list {
@@ -725,3 +731,147 @@ input {
   padding-left: 34px;
   padding-right: 29px;
 }
+
+/*=========================================================================================================================
+                                                    types__of_repairs end
+=========================================================================================================================*/
+
+/*=========================================================================================================================
+                                                   block__economy
+=========================================================================================================================*/
+
+
+.block__economy{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.block__wheel{
+  background: url(../img/image6.1.png) no-repeat -50px -140px;
+  background-size: cover;
+  max-width: 800px;
+  width: 100%;
+}
+
+
+
+
+.num__title{
+  background: #E3B873;
+  margin-right: 17px;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+}
+
+.wheel__text{
+  font-family: 'FuturaMediumC';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #363636;
+align-items: center;
+display: flex;
+}
+
+.wrapp__title{
+  position: relative;
+}
+
+.wheel_title{
+  display: flex;
+  position: absolute;
+  top: -579px;
+  left: 355px;
+}
+
+.wheel_title__two{
+  display: flex;
+  position: absolute;
+  top: -470px;
+  left: 432px;
+}
+
+.small_title{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wheel_title__free{
+  display: flex;
+  position: absolute;
+  top: -310px;
+  left: 455px;
+}
+
+.wheel_title__four{
+  display: flex;
+  position: absolute;
+  top: -145px;
+  left: 385px;
+}
+
+.black__form{
+  max-width:506px;
+  width: 100%;
+  background: url(../img/bg/BACKGROUNDLINE.png) no-repeat center #131313;
+  background-size: 100%;
+}
+
+.title__form{
+  font-family: 'FuturaDemiC';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+padding-left: 104px;
+padding-right: 105px;
+padding-top: 28px;
+}
+
+.sup__black{
+  display: flex;
+  flex-direction: column;
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: rgba(255, 255, 255, 0.5);
+}
+
+.black__input{
+  text-transform: uppercase;
+  
+}
+
+.black__input::after{
+  content: 'Как вас зовут:';
+  position: absolute;
+  font-family: 'FuturaMediumC';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+
+
+
+
