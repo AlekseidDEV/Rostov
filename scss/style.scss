@@ -592,6 +592,10 @@ line-height: 24px;
   color: #181818;
 }
 
+.tools{
+  margin-bottom: 20px;
+}
+
 .tool {
   text-align: center;
   margin-bottom: 31px;
@@ -686,6 +690,7 @@ position: relative;
 .card__block {
   display: flex;
   justify-content: space-between;
+  gap: 0px 30px;
   flex-wrap: wrap;
   padding-bottom: 350px;
 }
@@ -730,8 +735,13 @@ position: relative;
 .block__economy{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 170px;
 }
 
+.block__form_economy{
+  padding-right: 30px;
+  padding-top: 50px;
+}
 
 
 .block__wheel{
@@ -839,21 +849,246 @@ font-weight: 400;
 font-size: 15px;
 line-height: 20px;
 color: rgba(255, 255, 255, 0.5);
+max-width: 408px;
+width: 100%;
+margin: auto;
+}
+
+.sup__black:not(.not){
+  margin-bottom: 48px;
 }
 
 .black__input::placeholder{
-  color: red;
+  font-family: 'FuturaMediumC';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+
+}
+
+.black__input{
+  color: $deffColor;
+  margin-top: 7px;
+}
+
+.form__call{
+  max-width: 408px;
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  margin-top: 39px;
+}
+
+.text__black{
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: $deffColor;
+}
+
+.form__black{
+padding-left: 40px;
+}
+
+.black_box{
+  margin-top: 16px;
+  margin-bottom: 47px;
+}
+
+.btn_black__form{
+  @include button_no_border;
+  font-family: 'FuturaDemiC';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.btn{
+  display: flex;
+  justify-content: right;
+}
+
+/*=========================================================================================================================
+                                                   block__economy end
+=========================================================================================================================*/
+
+/*=========================================================================================================================
+                                                   fantasy__block
+=========================================================================================================================*/
+.fantasy{
+ background: url(../img/bg/bgFantasy.png) no-repeat;
+ background-size: 100%;
+ z-index: 1;
+ position: relative;
+ padding-top: 100px;
+ padding-bottom: 140px;
+}
+
+.fantasy::after{
+  content: '';
+  background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 
 
 
+.fantasy__block{
+ display: flex;
+}
 
+.block__img-fans{
+  display: flex;
+  max-width: 354px;
+  width: 100%;
+}
 
+.nav{
+  display: flex;
+  flex-direction: column;
+}
 
+.saving{
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+}
+.saving__text{
+  font-family: 'FuturaDemiC';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #E3B873;
+text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+.title__fans{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+text-transform: uppercase;
+color: #E3B873;
+margin-top: 137px;
+margin-right: 77px;
+margin-bottom: 47px;
+}
 
+.fans__link{
+  font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 172.4%;
+color: #FFFFFF;
+max-width: 269px;
+width: 100%;
+}
 
+.fans__link:hover{
+  font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 172.4%;
+color: #E3B873;
+}
 
+.big_left{
+  position: absolute;
+  top: -140px;
+}
 
+.block_left_img{
+  position: relative;
+}
 
+.small_left{
+  position: absolute;
+  top: 450px;
+}
+
+.block__right__img{
+  position: relative;
+}
+
+.big_right{
+  position: absolute;
+  left: 400px;
+  top: -200px;
+}
+
+.small_right{
+  position: absolute;
+  top: 110px;
+  left: 400px;
+}
+
+/*=========================================================================================================================
+                                                   card__desing
+=========================================================================================================================*/
+
+.design{
+  padding-top: 100px;
+}
+
+.design_icon{
+  text-align: center;
+}
+
+.des{
+  margin-bottom: 20px;
+}
+
+.text_des{
+  margin-top: 23px;
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #363636;
+}
+
+.title_dess{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #363636;
+padding-left: 34px;
+}
+
+.dess{
+  background: #FFFFFF;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+max-width: 300px;
+width: 100%;
+margin: auto;
+}
+
+.des__ul{
+  padding-left: 34px;
+}
+
+.card__desing{
+  display: flex;
+  justify-content: space-between;
+}
 
