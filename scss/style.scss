@@ -590,6 +590,7 @@ line-height: 24px;
   text-align: center;
   text-transform: uppercase;
   color: #181818;
+  padding-top: 50px;
 }
 
 .tools{
@@ -739,7 +740,7 @@ position: relative;
 }
 
 .block__form_economy{
-  padding-right: 30px;
+  padding-right: 80px;
   padding-top: 50px;
 }
 
@@ -983,7 +984,7 @@ font-size: 27px;
 line-height: 37px;
 text-transform: uppercase;
 color: #E3B873;
-margin-top: 137px;
+margin-top: 60px;
 margin-right: 77px;
 margin-bottom: 47px;
 }
@@ -1044,6 +1045,7 @@ color: #E3B873;
 
 .design{
   padding-top: 100px;
+  padding-bottom: 300px;
 }
 
 .design_icon{
@@ -1073,6 +1075,16 @@ font-size: 18px;
 line-height: 25px;
 color: #363636;
 padding-left: 34px;
+margin-bottom: 9px;
+}
+
+.des_li{
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #959595;
 }
 
 .dess{
@@ -1081,14 +1093,228 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 max-width: 300px;
 width: 100%;
 margin: auto;
+padding-top: 25px;
+padding-left: 29px;
+padding-right: 34px;
+padding-bottom: 10px;
+position: absolute;
+top: 67%;
+left: 12%;
 }
 
 .des__ul{
   padding-left: 34px;
+  margin-bottom: 40px;
 }
 
 .card__desing{
   display: flex;
   justify-content: space-between;
+  position: relative
+}
+
+.btn__des{
+  @include button_no_border;
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-right: 57px;
+padding-left: 33px;
+position: absolute;
+top: 85%;
+left: 0;
+}
+.btn__des__two{
+  @include button_no_border;
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-right: 57px;
+padding-left: 33px;
+position: absolute;
+top: 89%;
+left: 0;
+}
+
+.btn__des_free{
+  @include button_no_border;
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-right: 57px;
+padding-left: 33px;
+position: absolute;
+top: 92%;
+left: 0;
+}
+
+.card_des{
+  position: absolute;
+  top: 30px;
+}
+
+.card_des_two{
+  position: absolute;
+  top: 30px;
+  left: 430px;
+}
+
+.card_des__free{
+  position: absolute;
+  top: 30px;
+  left: 860px;
+}
+
+/*=========================================================================================================================
+                                                   card__desing end
+=========================================================================================================================*/
+
+/*=========================================================================================================================
+                                                   goal
+=========================================================================================================================*/
+.goal{
+padding-top: 400px;
+background: url(../img/bg/BACKGROUNDLINE1.png) no-repeat center #131313;
+background-size: 100%;
+}
+
+.tabs__goal{
+  padding-top: 100px;
+}
+
+.block__goal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sup__title{
+  font-family: 'FuturaDemiC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 18px;
+}
+
+.big__title{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+text-transform: uppercase;
+color: #E3B873;
+margin-bottom: 92px;
+position: relative;
+}
+
+.big__title::after{
+  content: '';
+  position: absolute;
+  width: 92px;
+  height: 1px;
+  background: #e3b873;
+  top: 55px;
+  left: 180px;
+}
+
+.slide__num{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 22px;
+}
+
+.slide__title{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+text-transform: uppercase;
+color: #E3B873;
+margin-bottom: 16px;
+}
+
+.slide__text{
+  
+font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+
+color: #FFFFFF;
+margin-bottom: 9px;
+}
+
+.slide__text_tw{
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+
+.sup_tabs{
+  display: flex;
+  margin-bottom: 44px;
+  justify-content: space-between;
+}
+
+.tabs__down{
+  margin-top: 36px;
+}
+
+.num_sup{
+  font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+text-transform: uppercase;
+color: #FFFFFF;
+position: relative;
+}
+
+.num_sup::after{
+  content: ''; 
+  position: absolute;
+  width: 16px;
+  height: 1px;
+  background: #E3B873;
+  top: 22px;
+  left: 1px;
+}
+
+.sup__text__tabs{
+  margin-top: 17px;
+  font-family: 'FuturaBookC';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
 }
 
