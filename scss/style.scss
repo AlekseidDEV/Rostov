@@ -5,7 +5,6 @@ $ColorONe: #e3b873;
 $deffColor: #ffffff;
 $colorUlText: #959595;
 
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -260,9 +259,9 @@ input {
 }
 
 .send__btn {
- @include button__white;
- padding-top: 18px;
- padding-bottom: 17px;
+  @include button__white;
+  padding-top: 18px;
+  padding-bottom: 17px;
 }
 
 .info {
@@ -497,10 +496,10 @@ input {
 }
 
 .btn__input {
- @include button__border;
- padding-left: 60px;
- padding-right: 60px;
- padding-top: 23px;
+  @include button__border;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 23px;
 }
 
 .sup__name {
@@ -526,12 +525,12 @@ input {
 }
 
 ::placeholder {
-color: #363636;
-font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+  color: #363636;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .label {
@@ -593,7 +592,7 @@ line-height: 24px;
   padding-top: 50px;
 }
 
-.tools{
+.tools {
   margin-bottom: 20px;
 }
 
@@ -613,10 +612,8 @@ line-height: 24px;
   left: 30px;
 }
 
-
-
-.card{
-position: relative;
+.card {
+  position: relative;
 }
 
 .ul__block {
@@ -732,149 +729,143 @@ position: relative;
                                                    block__economy
 =========================================================================================================================*/
 
-
-.block__economy{
+.block__economy {
   display: flex;
   justify-content: space-between;
   padding-bottom: 170px;
 }
 
-.block__form_economy{
+.block__form_economy {
   padding-right: 80px;
   padding-top: 50px;
 }
 
-
-.block__wheel{
+.block__wheel {
   background: url(../img/image6.1.png) no-repeat -50px -140px;
   background-size: cover;
   max-width: 800px;
   width: 100%;
 }
 
-
-
-
-.num__title{
-  background: #E3B873;
+.num__title {
+  background: #e3b873;
   margin-right: 17px;
   align-items: center;
   border-radius: 50%;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-color: #FFFFFF;
-display: flex;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
 }
 
-.wheel__text{
-  font-family: 'FuturaMediumC';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-color: #363636;
-align-items: center;
-display: flex;
+.wheel__text {
+  font-family: "FuturaMediumC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363636;
+  align-items: center;
+  display: flex;
 }
 
-.wrapp__title{
+.wrapp__title {
   position: relative;
 }
 
-.wheel_title{
+.wheel_title {
   display: flex;
   position: absolute;
   top: -579px;
   left: 355px;
 }
 
-.wheel_title__two{
+.wheel_title__two {
   display: flex;
   position: absolute;
   top: -470px;
   left: 432px;
 }
 
-.small_title{
+.small_title {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.wheel_title__free{
+.wheel_title__free {
   display: flex;
   position: absolute;
   top: -310px;
   left: 455px;
 }
 
-.wheel_title__four{
+.wheel_title__four {
   display: flex;
   position: absolute;
   top: -145px;
   left: 385px;
 }
 
-.black__form{
-  max-width:506px;
+.black__form {
+  max-width: 506px;
   width: 100%;
   background: url(../img/bg/BACKGROUNDLINE.png) no-repeat center #131313;
   background-size: 100%;
 }
 
-.title__form{
-  font-family: 'FuturaDemiC';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 25px;
-text-align: center;
-color: #FFFFFF;
-padding-left: 104px;
-padding-right: 105px;
-padding-top: 28px;
+.title__form {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 104px;
+  padding-right: 105px;
+  padding-top: 28px;
 }
 
-.sup__black{
+.sup__black {
   display: flex;
   flex-direction: column;
-  font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-color: rgba(255, 255, 255, 0.5);
-max-width: 408px;
-width: 100%;
-margin: auto;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 408px;
+  width: 100%;
+  margin: auto;
 }
 
-.sup__black:not(.not){
+.sup__black:not(.not) {
   margin-bottom: 48px;
 }
 
-.black__input::placeholder{
-  font-family: 'FuturaMediumC';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #FFFFFF;
-
+.black__input::placeholder {
+  font-family: "FuturaMediumC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
 }
 
-.black__input{
+.black__input {
   color: $deffColor;
   margin-top: 7px;
 }
 
-.form__call{
+.form__call {
   max-width: 408px;
   width: 100%;
   margin: auto;
@@ -882,37 +873,37 @@ color: #FFFFFF;
   margin-top: 39px;
 }
 
-.text__black{
-  font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: $deffColor;
+.text__black {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $deffColor;
 }
 
-.form__black{
-padding-left: 40px;
+.form__black {
+  padding-left: 40px;
 }
 
-.black_box{
+.black_box {
   margin-top: 16px;
   margin-bottom: 47px;
 }
 
-.btn_black__form{
+.btn_black__form {
   @include button_no_border;
-  font-family: 'FuturaDemiC';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 18px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: right;
 }
@@ -924,18 +915,22 @@ color: #FFFFFF;
 /*=========================================================================================================================
                                                    fantasy__block
 =========================================================================================================================*/
-.fantasy{
- background: url(../img/bg/bgFantasy.png) no-repeat;
- background-size: 100%;
- z-index: 1;
- position: relative;
- padding-top: 100px;
- padding-bottom: 140px;
+.fantasy {
+  background: url(../img/bg/bgFantasy.png) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 140px;
 }
 
-.fantasy::after{
-  content: '';
-  background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+.fantasy::after {
+  content: "";
+  background: linear-gradient(
+    109.8deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -944,96 +939,93 @@ color: #FFFFFF;
   right: 0;
 }
 
-
-
-
-.fantasy__block{
- display: flex;
+.fantasy__block {
+  display: flex;
 }
 
-.block__img-fans{
+.block__img-fans {
   display: flex;
   max-width: 354px;
   width: 100%;
 }
 
-.nav{
+.nav {
   display: flex;
   flex-direction: column;
 }
 
-.saving{
+.saving {
   margin-top: 51px;
   display: flex;
   align-items: center;
 }
-.saving__text{
-  font-family: 'FuturaDemiC';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #E3B873;
-text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+.saving__text {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #e3b873;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
-.title__fans{
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 37px;
-text-transform: uppercase;
-color: #E3B873;
-margin-top: 60px;
-margin-right: 77px;
-margin-bottom: 47px;
-}
-
-.fans__link{
-  font-family: 'Futura';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 172.4%;
-color: #FFFFFF;
-max-width: 269px;
-width: 100%;
+.title__fans {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin-top: 60px;
+  margin-right: 77px;
+  margin-bottom: 47px;
 }
 
-.fans__link:hover{
-  font-family: 'Futura';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 172.4%;
-color: #E3B873;
+.fans__link {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 172.4%;
+  color: #ffffff;
+  max-width: 269px;
+  width: 100%;
 }
 
-.big_left{
+.fans__link:hover {
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 172.4%;
+  color: #e3b873;
+}
+
+.big_left {
   position: absolute;
   top: -140px;
 }
 
-.block_left_img{
+.block_left_img {
   position: relative;
 }
 
-.small_left{
+.small_left {
   position: absolute;
   top: 450px;
 }
 
-.block__right__img{
+.block__right__img {
   position: relative;
 }
 
-.big_right{
+.big_right {
   position: absolute;
   left: 400px;
   top: -200px;
 }
 
-.small_right{
+.small_right {
   position: absolute;
   top: 110px;
   left: 400px;
@@ -1043,135 +1035,147 @@ color: #E3B873;
                                                    card__desing
 =========================================================================================================================*/
 
-.design{
+.design {
   padding-top: 100px;
   padding-bottom: 300px;
 }
 
-.design_icon{
+.design_icon {
   text-align: center;
 }
 
-.des{
+.des {
   margin-bottom: 20px;
 }
 
-.text_des{
+.text_des {
   margin-top: 23px;
-  font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 27px;
-text-align: center;
-color: #363636;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #363636;
 }
 
-.title_dess{
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-color: #363636;
-padding-left: 34px;
-margin-bottom: 9px;
+.title_dess {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+  padding-left: 34px;
+  margin-bottom: 9px;
+  z-index: 1;
 }
 
-.des_li{
-  font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
-color: #959595;
+.des_li {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
 }
 
-.dess{
-  background: #FFFFFF;
-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-max-width: 300px;
-width: 100%;
-margin: auto;
-padding-top: 25px;
-padding-left: 29px;
-padding-right: 34px;
-padding-bottom: 10px;
-position: absolute;
-top: 67%;
-left: 12%;
+.dess {
+  background: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  padding-top: 25px;
+  padding-left: 29px;
+  padding-right: 34px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 67%;
+  left: 12%;
 }
 
-.des__ul{
+.des__ul {
   padding-left: 34px;
   margin-bottom: 40px;
 }
 
-.card__desing{
+.card__desing {
   display: flex;
   justify-content: space-between;
-  position: relative
+  position: relative;
 }
 
-.btn__des{
+.btn__des {
   @include button_no_border;
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-right: 57px;
-padding-left: 33px;
-position: absolute;
-top: 85%;
-left: 0;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-right: 57px;
+  padding-left: 33px;
+  position: absolute;
+  top: 85%;
+  left: 0;
 }
-.btn__des__two{
+.btn__des__two {
   @include button_no_border;
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-right: 57px;
-padding-left: 33px;
-position: absolute;
-top: 89%;
-left: 0;
-}
-
-.btn__des_free{
-  @include button_no_border;
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-right: 57px;
-padding-left: 33px;
-position: absolute;
-top: 92%;
-left: 0;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-right: 57px;
+  padding-left: 33px;
+  position: absolute;
+  top: 89%;
+  left: 0;
 }
 
-.card_des{
+.btn__des_free {
+  @include button_no_border;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-right: 57px;
+  padding-left: 33px;
+  position: absolute;
+  top: 92%;
+  left: 0;
+}
+
+.card_des {
   position: absolute;
   top: 30px;
 }
 
-.card_des_two{
+.card_des::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.card_des_two {
   position: absolute;
   top: 30px;
   left: 430px;
 }
 
-.card_des__free{
+.card_des__free {
   position: absolute;
   top: 30px;
   left: 860px;
@@ -1184,46 +1188,46 @@ left: 0;
 /*=========================================================================================================================
                                                    goal
 =========================================================================================================================*/
-.goal{
-padding-top: 400px;
-background: url(../img/bg/BACKGROUNDLINE1.png) no-repeat center #131313;
-background-size: 100%;
+.goal {
+  padding-top: 400px;
+  background: url(../img/bg/BACKGROUNDLINE1.png) no-repeat center #131313;
+  background-size: 100%;
 }
 
-.tabs__goal{
+.tabs__goal {
   padding-top: 100px;
 }
 
-.block__goal{
+.block__goal {
   display: flex;
   justify-content: space-between;
 }
 
-.sup__title{
-  font-family: 'FuturaDemiC';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 21px;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 18px;
+.sup__title {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 18px;
 }
 
-.big__title{
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 37px;
-text-transform: uppercase;
-color: #E3B873;
-margin-bottom: 92px;
-position: relative;
+.big__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin-bottom: 92px;
+  position: relative;
 }
 
-.big__title::after{
-  content: '';
+.big__title::after {
+  content: "";
   position: absolute;
   width: 92px;
   height: 1px;
@@ -1232,89 +1236,361 @@ position: relative;
   left: 180px;
 }
 
-.slide__num{
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 22px;
+.slide__num {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 22px;
 }
 
-.slide__title{
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 23px;
-text-transform: uppercase;
-color: #E3B873;
-margin-bottom: 16px;
+.slide__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin-bottom: 16px;
 }
 
-.slide__text{
-  
-font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
+.slide__text {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
 
-color: #FFFFFF;
-margin-bottom: 9px;
+  color: #ffffff;
+  margin-bottom: 9px;
 }
 
-.slide__text_tw{
-  font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 25px;
+.slide__text_tw {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.sup_tabs{
+.sup_tabs {
   display: flex;
   margin-bottom: 44px;
   justify-content: space-between;
 }
 
-.tabs__down{
+.tabs__down {
   margin-top: 36px;
 }
 
-.num_sup{
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 21px;
-text-transform: uppercase;
-color: #FFFFFF;
-position: relative;
+.num_sup {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
 }
 
-.num_sup::after{
-  content: ''; 
+.num_sup::after {
+  content: "";
   position: absolute;
   width: 16px;
   height: 1px;
-  background: #E3B873;
+  background: #e3b873;
   top: 22px;
   left: 1px;
 }
 
-.sup__text__tabs{
+.sup__text__tabs {
   margin-top: 17px;
-  font-family: 'FuturaBookC';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-
-color: #FFFFFF;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
+/*=========================================================================================================================
+                                                   goal end
+=========================================================================================================================*/
+
+/*=========================================================================================================================
+                                                   our__team
+=========================================================================================================================*/
+
+.oru-team {
+  text-align: center;
+  margin-top: 95px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.block_card_our {
+  display: flex;
+  justify-content: center;
+  gap: 0px 105px;
+  position: absolute;
+  left: 9%;
+}
+
+.our__title {
+  margin-bottom: 12px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text__our {
+  margin-top: 23px;
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+.card__our {
+  position: relative;
+}
+
+.icon_our {
+  background: #e3b873;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+  padding: 13px 13px 13px 13px;
+  position: absolute;
+  top: -6%;
+  left: -12%;
+}
+
+.block__img__our {
+  max-width: 232.5px;
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  position: absolute;
+  top: 78%;
+  left: 7%;
+}
+
+.title_our_card {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #181818;
+  padding-top: 22px;
+  margin-bottom: 9px;
+}
+
+.text__card_our {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #959595;
+}
+
+.btn__our {
+  @include button_no_border;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-left: 46px;
+  padding-right: 44px;
+}
+
+/*=========================================================================================================================
+                                                   our__team end
+=========================================================================================================================*/
+
+/*=========================================================================================================================
+                                                   client
+=========================================================================================================================*/
+
+.client {
+  padding-top: 300px;
+  background: url(../img/bg/line.bg.png) no-repeat center;
+  background-size: 100%;
+  position: relative;
+}
+
+// .client::after{
+//   content: '';
+//   position: absolute;
+//   background: url(../img/bg/Group21.png) no-repeat;
+//   background-size: 100%;
+//   width: 100%;
+//   height: 100%;
+//   top: 100px;
+// }
+
+.block__client {
+  text-align: center;
+}
+
+.text__client {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #363636;
+  position: relative;
+  padding-top: 20px;
+}
+
+.text__client::after {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: $ColorONe;
+  left: 48%;
+}
+
+.our__client {
+  margin-top: 88px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #181818;
+  margin-bottom: 13px;
+}
+
+.text__sub__client {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 24px;
+  color: #363636;
+}
+
+.card__client {
+  max-width: 376px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+
+.sup__title__client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 22px;
+}
+
+.avatar {
+  margin-right: 23px;
+}
+
+.block__FIO {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.text__card_client {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 180%;
+  color: #959595;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 31px;
+  padding-bottom: 46px;
+}
+
+.button__size {
+  background: $ColorONe;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 13px;
+  padding-left: 65px;
+  position: relative;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.btn__days {
+  background: $ColorONe;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-right: 13px;
+  padding-left: 65px;
+  position: relative;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 1px;
+}
+
+.btn__days::after {
+  content: "";
+  position: absolute;
+  background: url(../img/icon/Group3.svg) no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 17px;
+}
+
+.button__size::after {
+  content: "";
+  position: absolute;
+  background: url(../img/icon/Group21.4.svg) no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 17px;
+}
